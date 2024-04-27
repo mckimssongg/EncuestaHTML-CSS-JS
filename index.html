@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encuesta</title>
+</head>
+<body>
+    <h1>Encuesta en línea</h1>
+    <section>
+        <h2>Sección de Ingreso</h2>
+        <form id="surveyForm">
+            <input type="text" id="question1" placeholder="Pregunta 1" required>
+            <input type="text" id="question2" placeholder="Pregunta 2" required>
+            <input type="text" id="question3" placeholder="Pregunta 3" required>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <section>
+        <h2>Respuestas</h2>
+        <div id="responseGrid"></div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>

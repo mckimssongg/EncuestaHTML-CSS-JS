@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    margin: 10px 0;
+    padding: 8px;
+    width: calc(100% - 22px);
+    display: block;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#responseGrid {
+    margin-top: 20px;
+}
+
+.response {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+button.deleteBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+}
